@@ -1,0 +1,594 @@
+<!DOCTYPE html><html lang="en-NZ"><head><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; img-src * data: blob:; media-src data:; connect-src 'none'; form-action 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R E Sinclair | Performance Car Modification &amp; Tuning, Christchurch</title>
+<meta name="description" content="Christchurch mechanics for performance car modification, service and tuning: engine rebuilds, fabrication, rewiring and ECU tuning on a 4WD dyno. Call 03 389 2126.">
+<link rel="canonical" href="https://www.resinclair.co.nz/">
+<meta name="theme-color" content="#111111">
+<meta property="og:type" content="website">
+<meta property="og:title" content="R E Sinclair | Performance Car Modification &amp; Tuning, Christchurch">
+<meta property="og:description" content="Christchurch mechanics for performance car modification, service and tuning: engine rebuilds, fabrication, rewiring and ECU tuning on a 4WD dyno. Call 03 389 2126.">
+<meta property="og:url" content="https://tova-studio.github.io/r-e-sinclair/">
+<meta property="og:image" content="https://www.resinclair.co.nz/assets/logo.jpg">
+<meta property="og:image:alt" content="R E Sinclair logo">
+<meta property="og:locale" content="en_NZ">
+<meta property="og:site_name" content="R E Sinclair">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "R E Sinclair",
+  "description": "Performance car modification, service and tuning in Christchurch. Full engine rebuilds, fabrication, complete rewiring, and installation and tuning of any aftermarket ECU, piston or rotary, with a Dyno Dynamics 4WD dyno.",
+  "url": "https://www.resinclair.co.nz/",
+  "logo": "https://www.resinclair.co.nz/assets/logo.jpg",
+  "image": "https://www.resinclair.co.nz/assets/logo.jpg",
+  "telephone": "+64 3 389 2126",
+  "email": "re-sinclair@outlook.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "35 Stanmore Road",
+    "addressLocality": "Christchurch",
+    "addressCountry": "NZ"
+  },
+  "areaServed": "Christchurch",
+  "sameAs": ["https://www.facebook.com/126130584123652"]
+}
+</script>
+<style>
+:root{
+  --black:#0e0e0e;
+  --ink:#151515;
+  --charcoal:#2b2b2b;
+  --graphite:#222222;
+  --line:#4a4a4a;
+  --silver:#cccccc;
+  --silver-hi:#f2f2f2;
+  --text:#e4e4e4;
+  --muted:#bdbdbd;
+  --steel:#999999;
+  --serif:"Playfair Display", Georgia, "Times New Roman", serif;
+  --sans:"Source Sans 3", "Segoe UI", Arial, sans-serif;
+  --wrap:1180px;
+  --header-h:76px;
+  --chrome:linear-gradient(180deg,#fafafa 0%,#c9c9c9 35%,#7a7a7a 55%,#b5b5b5 80%,#e9e9e9 100%);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--charcoal);color:var(--text);font-family:var(--sans);font-size:1.0625rem;line-height:1.7;overflow-x:hidden}
+img,svg{max-width:100%;display:block}
+a{color:var(--silver-hi);text-underline-offset:3px}
+a:hover{color:#ffffff}
+:focus-visible{outline:3px solid #ffffff;outline-offset:3px;border-radius:2px}
+h1,h2,h3{font-family:var(--serif);color:var(--silver-hi);line-height:1.2;margin:0 0 .6em;font-weight:600}
+h2{font-size:clamp(1.85rem,1.3rem + 2vw,2.75rem)}
+h3{font-size:1.3rem}
+p{margin:0 0 1.1em}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 clamp(16px,4vw,40px)}
+.skip{position:absolute;left:-9999px;top:0;background:#fff;color:#000;padding:12px 18px;z-index:200}
+.skip:focus{left:12px;top:12px}
+
+/* carbon fibre, after the original header */
+.carbon{
+  background:
+    linear-gradient(27deg,#141414 5px,transparent 5px) 0 5px,
+    linear-gradient(207deg,#141414 5px,transparent 5px) 10px 0,
+    linear-gradient(27deg,#202020 5px,transparent 5px) 0 10px,
+    linear-gradient(207deg,#202020 5px,transparent 5px) 10px 5px,
+    linear-gradient(90deg,#1a1a1a 10px,transparent 10px),
+    linear-gradient(#1c1c1c 25%,#191919 25%,#191919 50%,transparent 50%,transparent 75%,#232323 75%,#232323);
+  background-color:#121212;
+  background-size:20px 20px;
+}
+.chrome-bar{height:6px;background:var(--chrome);box-shadow:0 2px 6px rgba(0,0,0,.6)}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:100;background:var(--black);box-shadow:0 6px 18px rgba(0,0,0,.45)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:var(--header-h)}
+.brand{display:flex;align-items:center;min-height:44px;flex-shrink:0}
+.brand img{height:58px;width:auto}
+.site-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:4px}
+.site-nav a{display:flex;align-items:center;min-height:44px;padding:0 14px;color:var(--silver);text-decoration:none;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.85rem;border-bottom:2px solid transparent}
+.site-nav a:hover{color:#fff;border-bottom-color:var(--steel)}
+.header-actions{display:flex;align-items:center;gap:8px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 24px;border-radius:3px;font-family:var(--sans);font-weight:700;font-size:1rem;letter-spacing:.03em;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease,background-color .15s ease}
+.btn svg{width:18px;height:18px;flex-shrink:0}
+.btn-chrome{background:linear-gradient(180deg,#ffffff 0%,#dcdcdc 45%,#b9b9b9 100%);color:#111;border-color:#e8e8e8;box-shadow:0 2px 0 #6d6d6d,0 6px 14px rgba(0,0,0,.45)}
+.btn-chrome:hover{color:#000;transform:translateY(-1px);box-shadow:0 3px 0 #6d6d6d,0 10px 20px rgba(0,0,0,.5)}
+.btn-ghost{background:transparent;color:var(--silver-hi);border-color:var(--silver)}
+.btn-ghost:hover{background:rgba(255,255,255,.08);color:#fff}
+.btn-header{min-height:44px;padding:0 18px;font-size:.95rem}
+.btn-header .short{display:none}
+.nav-toggle{display:none;width:48px;height:48px;align-items:center;justify-content:center;background:transparent;border:1px solid var(--line);border-radius:3px;color:var(--silver-hi);cursor:pointer}
+.nav-toggle svg{width:24px;height:24px}
+.nav-toggle .icon-close{display:none}
+.nav-toggle[aria-expanded="true"] .icon-open{display:none}
+.nav-toggle[aria-expanded="true"] .icon-close{display:block}
+
+/* hero */
+.hero{position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 75% 40%,rgba(255,255,255,.07),transparent 60%),linear-gradient(90deg,rgba(10,10,10,.92) 0%,rgba(10,10,10,.78) 55%,rgba(10,10,10,.55) 100%)}
+.hero-inner{position:relative;display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(24px,5vw,64px);align-items:center;padding-top:clamp(32px,6vw,96px);padding-bottom:clamp(40px,6vw,96px)}
+.eyebrow{display:inline-block;font-size:.82rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--silver);margin-bottom:18px;padding-bottom:8px;border-bottom:1px solid var(--steel)}
+.hero h1{font-size:clamp(2rem,1.2rem + 3.6vw,3.6rem);font-weight:700;margin-bottom:.45em;letter-spacing:-.01em}
+.hero h1 em{font-style:italic;font-weight:500;color:var(--silver)}
+.lead{font-size:clamp(1.06rem,1rem + .35vw,1.25rem);color:var(--text);max-width:40em}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin:28px 0 28px}
+.hero-facts{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px 28px;color:var(--muted);font-size:1rem;font-weight:600;letter-spacing:.02em}
+.hero-facts li{display:flex;align-items:center;gap:10px}
+.hero-facts li::before{content:"";width:8px;height:8px;background:var(--chrome);transform:rotate(45deg)}
+.gauge-wrap{position:relative;justify-self:center;width:100%;max-width:380px}
+.gauge-wrap::after{content:"";position:absolute;inset:6%;border-radius:50%;box-shadow:0 30px 60px rgba(0,0,0,.6);z-index:-1}
+.needle{transform-box:view-box;transform-origin:150px 150px;transform:rotate(52deg);animation:sweep 2.2s cubic-bezier(.25,.8,.3,1) .3s both}
+@keyframes sweep{0%{transform:rotate(-135deg)}55%{transform:rotate(100deg)}100%{transform:rotate(52deg)}}
+
+/* sections */
+section{scroll-margin-top:calc(var(--header-h) + 8px)}
+.section{padding:clamp(56px,8vw,96px) 0}
+.section-alt{background:var(--graphite)}
+.section-head{max-width:760px;margin-bottom:clamp(28px,4.5vw,48px)}
+.kicker{display:block;font-size:.8rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.rule{width:72px;height:3px;background:var(--chrome);margin:18px 0 22px;border:0}
+.section-head p{color:var(--muted);font-size:1.12rem}
+
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2.5vw,28px);list-style:none;margin:0;padding:0}
+.service{position:relative;background:linear-gradient(180deg,#333333,#2a2a2a);border:1px solid #444;border-top:3px solid #bdbdbd;border-radius:3px;padding:28px 26px 26px;box-shadow:0 10px 24px rgba(0,0,0,.28)}
+.service .icon{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:#1b1b1b;border:1px solid #555;margin-bottom:18px;color:var(--silver-hi)}
+.service .icon svg{width:26px;height:26px}
+.service h3{margin-bottom:.45em}
+.service p{color:var(--muted);margin:0}
+
+.dyno{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,80px);align-items:center}
+.dyno-panel{border:1px solid #444;border-radius:4px;overflow:hidden;box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.dyno-panel .panel-body{padding:clamp(24px,4vw,44px)}
+.dyno-panel .panel-label{font-family:var(--serif);font-size:clamp(1.5rem,1.2rem + 1.6vw,2.3rem);color:var(--silver-hi);line-height:1.15;margin:0 0 14px}
+.spec{list-style:none;margin:0;padding:0}
+.spec li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid #3d3d3d;color:var(--muted)}
+.spec li:last-child{border-bottom:0}
+.spec strong{color:var(--silver-hi);font-weight:600;text-align:right}
+
+.about{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(32px,6vw,80px);align-items:center}
+.about-figure{margin:0;padding:clamp(18px,3vw,28px);border-radius:4px;border:1px solid #484848;box-shadow:inset 0 0 0 1px #111,0 18px 40px rgba(0,0,0,.45)}
+.about-figure img{width:100%;max-width:424px;height:auto;margin:0 auto;border:1px solid #000}
+.about-figure figcaption{text-align:center;margin-top:16px;font-size:.9rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.pull{font-family:var(--serif);font-style:italic;font-size:clamp(1.2rem,1rem + .7vw,1.5rem);line-height:1.5;color:var(--silver-hi);border-left:3px solid var(--silver);padding-left:22px;margin:0 0 26px}
+
+.faq{display:grid;grid-template-columns:repeat(2,1fr);gap:0 clamp(32px,5vw,64px)}
+.faq-item{padding:24px 0;border-top:1px solid #444}
+.faq-item h3{font-size:1.22rem}
+.faq-item p{color:var(--muted);margin:0}
+
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2.5vw,28px)}
+.card{background:#2f2f2f;border:1px solid #474747;border-radius:3px;padding:26px;box-shadow:0 10px 24px rgba(0,0,0,.28);display:flex;flex-direction:column}
+.card h3{font-size:1.15rem;display:flex;align-items:center;gap:12px}
+.card h3 svg{width:22px;height:22px;color:var(--silver)}
+.card p{color:var(--muted)}
+.card .big{font-size:1.3rem;font-weight:700;color:var(--silver-hi);word-break:break-word;font-style:normal;margin:0 0 1.1em}
+.card .btn{width:100%;margin-top:auto}
+.contact-band{margin-top:clamp(28px,4vw,44px);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;padding:clamp(24px,3.5vw,36px);border-radius:4px;border:1px solid #444}
+.contact-band p{margin:0;font-family:var(--serif);font-size:clamp(1.25rem,1rem + 1vw,1.7rem);color:var(--silver-hi)}
+.contact-band .btns{display:flex;flex-wrap:wrap;gap:12px}
+
+/* footer */
+.site-footer{background:var(--black);color:var(--muted);font-size:.95rem}
+.footer-inner{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:32px;padding-top:48px;padding-bottom:36px}
+.footer-inner img{height:52px;width:auto;margin-bottom:14px}
+.site-footer h2{font-family:var(--sans);font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--silver);margin:0 0 12px;font-weight:700}
+.site-footer ul{list-style:none;margin:0;padding:0}
+.site-footer li a{display:inline-flex;align-items:center;min-height:44px;color:var(--muted);text-decoration:none}
+.site-footer li a:hover{color:#fff;text-decoration:underline}
+.site-footer address{font-style:normal}
+.footer-base{border-top:1px solid #2c2c2c;padding-top:18px;padding-bottom:22px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:.88rem;color:#ababab}
+
+/* responsive */
+@media (max-width:1040px){
+  .services{grid-template-columns:repeat(2,1fr)}
+  .site-nav a{padding:0 10px}
+}
+@media (max-width:900px){
+  :root{--header-h:66px}
+  .brand img{height:46px}
+  .nav-toggle{display:inline-flex}
+  .site-nav{position:absolute;left:0;right:0;top:100%;background:#111;border-top:1px solid #2a2a2a;box-shadow:0 14px 28px rgba(0,0,0,.6);display:none}
+  .site-nav.is-open{display:block}
+  .site-nav ul{flex-direction:column;gap:0;padding:8px clamp(16px,4vw,40px) 16px}
+  .site-nav a{min-height:52px;border-bottom:1px solid #262626;font-size:.95rem}
+  .hero-inner{grid-template-columns:1fr}
+  .gauge-wrap{max-width:260px}
+  .dyno,.about{grid-template-columns:1fr}
+  .faq{grid-template-columns:1fr}
+  .contact-grid{grid-template-columns:1fr 1fr}
+  .footer-inner{grid-template-columns:1fr 1fr}
+  .footer-inner > div:first-child{grid-column:1 / -1}
+}
+@media (max-width:640px){
+  .services{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+  .service{padding:22px 20px}
+  .service .icon{width:44px;height:44px;margin-bottom:14px}
+  .service .icon svg{width:22px;height:22px}
+  .service h3{font-size:1.2rem}
+  .contact-grid{grid-template-columns:1fr}
+  .btn-header .long{display:none}
+  .btn-header .short{display:inline}
+  .btn-header{padding:0 14px}
+  .hero-ctas{margin:24px 0 22px}
+  .hero-ctas .btn{flex:1 1 100%}
+  .hero-facts{gap:8px 20px;font-size:.95rem}
+  .gauge-wrap{max-width:220px}
+  .footer-inner{grid-template-columns:1fr}
+  .spec li{flex-direction:column;gap:2px}
+  .spec strong{text-align:left}
+}
+@media (max-width:360px){
+  .brand img{height:38px}
+  .header-inner{gap:8px}
+  .header-actions{gap:6px}
+  .btn-header{padding:0 12px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none !important;transition:none !important}
+  .needle{transform:rotate(52deg)}
+}
+</style>
+<meta name="robots" content="noindex, nofollow"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="R E Sinclair | Performance Car Modification &amp; Tuning, Christchurch"><meta name="twitter:description" content="Christchurch mechanics for performance car modification, service and tuning: engine rebuilds, fabrication, rewiring and ECU tuning on a 4WD dyno. Call 03 389 2126."></head>
+<body><div style="background:#1b2430;color:#fff;text-align:center;font:13px/1.4 system-ui,sans-serif;padding:8px 12px;position:relative;z-index:99999">Website concept prepared by Tova Digital for R E Sinclair. This is a preview, not a live website.</div>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="R E Sinclair, back to top">
+      <img src="assets/logo.jpg" width="424" height="127" alt="R E Sinclair logo">
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#dyno">Dyno</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#questions">FAQ</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-chrome btn-header" href="tel:+6433892126" aria-label="Call R E Sinclair on 03 389 2126">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.300a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"></path></svg>
+        <span class="long">03 389 2126</span><span class="short">Call</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"></path></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+      </button>
+    </div>
+  </div>
+  <div class="chrome-bar" aria-hidden="true"></div>
+</header>
+
+<main id="main">
+  <section class="hero carbon" id="top" aria-labelledby="hero-title">
+    <div class="wrap hero-inner">
+      <div>
+        <span class="eyebrow">Mechanics &amp; car repair · Christchurch</span>
+        <h1 id="hero-title">Performance car modification, service <em>&amp;</em> tuning in Christchurch</h1>
+        <p class="lead">R E Sinclair is a mechanic and car repair workshop at 35 Stanmore Road, Phillipstown, Christchurch. We handle full engine rebuilds, fabrication, complete rewiring, and installation and tuning of any aftermarket ECU on our Dyno Dynamics 4WD dyno. No job is too big or too small.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-chrome" href="tel:+6433892126">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"></path></svg>
+            Call 03 389 2126
+          </a>
+          <a class="btn btn-ghost" href="mailto:re-sinclair@outlook.com?subject=Enquiry%20for%20R%20E%20Sinclair">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M22 6l-10 7L2 6"></path></svg>
+            Email the workshop
+          </a>
+        </div>
+        <ul class="hero-facts">
+          <li>Piston or rotary</li>
+          <li>Dyno Dynamics 4WD dyno</li>
+          <li>Any type of vehicle</li>
+        </ul>
+      </div>
+      <div class="gauge-wrap">
+        <svg viewBox="0 0 300 300" role="img" aria-labelledby="gauge-title">
+          <title id="gauge-title">Illustration of a rev counter, representing performance tuning at R E Sinclair</title>
+          <defs>
+            <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#fafafa"></stop>
+              <stop offset=".45" stop-color="#9a9a9a"></stop>
+              <stop offset=".55" stop-color="#5c5c5c"></stop>
+              <stop offset="1" stop-color="#d6d6d6"></stop>
+            </linearGradient>
+            <radialGradient id="face" cx=".5" cy=".4" r=".65">
+              <stop offset="0" stop-color="#2e2e2e"></stop>
+              <stop offset="1" stop-color="#0c0c0c"></stop>
+            </radialGradient>
+          </defs>
+          <circle cx="150" cy="150" r="146" fill="url(#bezel)"></circle>
+          <circle cx="150" cy="150" r="136" fill="url(#face)"></circle>
+          <path d="M65.1 234.9 A120 120 0 1 1 234.9 234.9" fill="none" stroke="#5a5a5a" stroke-width="2"></path>
+          <path d="M268.5 131.2 A120 120 0 0 1 234.9 234.9" fill="none" stroke="#d23a3a" stroke-width="6"></path>
+          <g stroke="#e6e6e6" stroke-width="3" stroke-linecap="round">
+            <line x1="150" y1="32" x2="150" y2="50" transform="rotate(-135 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="50" transform="rotate(-108 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="50" transform="rotate(-81 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="50" transform="rotate(-54 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="50" transform="rotate(-27 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="50"></line>
+            <line x1="150" y1="32" x2="150" y2="50" transform="rotate(27 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="50" transform="rotate(54 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="50" transform="rotate(81 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="50" transform="rotate(108 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="50" transform="rotate(135 150 150)"></line>
+          </g>
+          <g stroke="#8a8a8a" stroke-width="2" stroke-linecap="round">
+            <line x1="150" y1="32" x2="150" y2="42" transform="rotate(-121.5 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="42" transform="rotate(-94.5 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="42" transform="rotate(-67.5 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="42" transform="rotate(-40.5 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="42" transform="rotate(-13.5 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="42" transform="rotate(13.5 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="42" transform="rotate(40.5 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="42" transform="rotate(67.5 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="42" transform="rotate(94.5 150 150)"></line>
+            <line x1="150" y1="32" x2="150" y2="42" transform="rotate(121.5 150 150)"></line>
+          </g>
+          <g fill="#d9d9d9" font-family="Georgia, 'Times New Roman', serif" font-size="17" text-anchor="middle">
+            <text x="92" y="213">0</text>
+            <text x="72" y="180">1</text>
+            <text x="69" y="142">2</text>
+            <text x="84" y="107">3</text>
+            <text x="113" y="82">4</text>
+            <text x="150" y="73">5</text>
+            <text x="187" y="82">6</text>
+            <text x="216" y="107">7</text>
+            <text x="231" y="142" fill="#ff8a8a">8</text>
+            <text x="228" y="180" fill="#ff8a8a">9</text>
+            <text x="208" y="213" fill="#ff8a8a">10</text>
+          </g>
+          <text x="150" y="208" fill="#b9b9b9" font-family="Arial, sans-serif" font-size="10" letter-spacing="2" text-anchor="middle">RPM × 1000</text>
+          <text x="150" y="236" fill="#e6e6e6" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="18" text-anchor="middle">Sinclair</text>
+          <g class="needle">
+            <path d="M147 160 L150 46 L153 160 Z" fill="#e04848"></path>
+          </g>
+          <circle cx="150" cy="150" r="13" fill="url(#bezel)"></circle>
+          <circle cx="150" cy="150" r="5" fill="#111"></circle>
+        </svg>
+      </div>
+    </div>
+  </section>
+  <div class="chrome-bar" aria-hidden="true"></div>
+
+  <section class="section" id="services" aria-labelledby="services-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Services</span>
+        <h2 id="services-title">What can R E Sinclair do for my car?</h2>
+        <hr class="rule">
+        <p>Our experience, knowledge, and understanding in all fields of car modification enables us to offer a wide range of specialised services for any type of vehicle.</p>
+      </div>
+      <ul class="services">
+        <li class="service">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10h2l2-2h6l2 2h2v2h2v-2h1v6h-1v-2h-2v3h-3l-2 2H8l-2-2H4z"></path><path d="M9 8V5h5v3M2 13h2"></path></svg></div>
+          <h3>Full engine rebuilds</h3>
+          <p>Complete engine rebuilds carried out in our large Christchurch workshop.</p>
+        </li>
+        <li class="service">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"></path></svg></div>
+          <h3>Fabrication</h3>
+          <p>Custom fabrication for your modification project, done in our own workshop alongside the rest of the build.</p>
+        </li>
+        <li class="service">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="4" cy="6" r="2"></circle><circle cx="20" cy="18" r="2"></circle><path d="M6 6h4a4 4 0 0 1 4 4v4a4 4 0 0 0 4 4"></path><path d="M4 12h5M15 6h5"></path></svg></div>
+          <h3>Complete rewiring</h3>
+          <p>Complete rewiring of your vehicle, done by the same team that installs and tunes your engine management.</p>
+        </li>
+        <li class="service">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="1.5"></rect><rect x="9.5" y="9.5" width="5" height="5"></rect><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"></path></svg></div>
+          <h3>Aftermarket ECU installation &amp; tuning</h3>
+          <p>Installation and tuning of any aftermarket ECU, whether it be a piston or rotary application.</p>
+        </li>
+        <li class="service">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 17a9 9 0 1 1 17 0"></path><path d="M12 14l4-5"></path><circle cx="12" cy="14.5" r="1.3"></circle></svg></div>
+          <h3>Dyno tuning</h3>
+          <p>Tuning on our in-house Dyno Dynamics 4WD dyno.</p>
+        </li>
+        <li class="service">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16l1.5-5a2 2 0 0 1 1.9-1.4h7.2a2 2 0 0 1 1.9 1.4L19 16"></path><path d="M3 16h18v3H3z"></path><circle cx="7" cy="19" r="1.5"></circle><circle cx="17" cy="19" r="1.5"></circle></svg></div>
+          <h3>Performance car modification &amp; service</h3>
+          <p>Performance car modification and servicing for any type of vehicle.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="dyno" aria-labelledby="dyno-title">
+    <div class="wrap dyno">
+      <div>
+        <span class="kicker">The workshop</span>
+        <h2 id="dyno-title">Do you have a dyno for tuning?</h2>
+        <hr class="rule">
+        <p>Yes. Our workshop has a Dyno Dynamics 4WD dyno. A chassis dyno lets a car run under load inside the workshop, so tuning can be done and checked in controlled conditions.</p>
+        <p>Because it is a four-wheel-drive dyno, it suits a wide range of vehicles. Together with our large workshop, it lets us cater for any job, big or small. That covers everything from full engine rebuilds and fabrication to complete rewiring, installation and tuning of any aftermarket ECU.</p>
+        <a class="btn btn-ghost" href="#contact">Talk to us about your car</a>
+      </div>
+      <div class="dyno-panel carbon">
+        <div class="panel-body">
+          <p class="panel-label">Built for any job, big or small</p>
+          <ul class="spec">
+            <li><span>Dyno</span><strong>Dyno Dynamics 4WD</strong></li>
+            <li><span>Engine management</span><strong>Any aftermarket ECU</strong></li>
+            <li><span>Applications</span><strong>Piston or rotary</strong></li>
+            <li><span>Vehicles</span><strong>Any type of vehicle</strong></li>
+            <li><span>Location</span><strong>Phillipstown, Christchurch</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="wrap about">
+      <div>
+        <span class="kicker">About us</span>
+        <h2 id="about-title">About R E Sinclair</h2>
+        <hr class="rule">
+        <p class="pull">Performance car modification, service and tuning in Christchurch.</p>
+        <p>Our experience, knowledge, and understanding in all fields of car modification enables us to offer a wide range of specialised services for any type of vehicle.</p>
+        <p>Our large workshop and Dyno Dynamics 4WD dyno let us cater for any job big or small. We do full engine rebuilds and fabrication, complete rewiring, and installation and tuning of any aftermarket ECU, whether it be a piston or rotary application.</p>
+        <p>You'll find us at 35 Stanmore Road in Phillipstown, Christchurch. Give us a call on <a href="tel:+6433892126">03 389 2126</a> to talk through your car and what you'd like done.</p>
+      </div>
+      <figure class="about-figure carbon">
+        <img src="assets/logo.jpg" width="424" height="127" alt="R E Sinclair logo: chrome RE lettering with Sinclair in script on carbon fibre" loading="lazy" decoding="async">
+        <figcaption>Mechanics &amp; car repair · Christchurch</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="questions" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Good to know</span>
+        <h2 id="faq-title">Questions customers ask</h2>
+        <hr class="rule">
+      </div>
+      <div class="faq">
+        <div class="faq-item">
+          <h3>Can you install and tune my aftermarket ECU?</h3>
+          <p>Yes. We install and tune any aftermarket ECU, whether it be a piston or rotary application. We do the tuning on our Dyno Dynamics 4WD dyno.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Do you work on rotary engines?</h3>
+          <p>Yes. Our ECU installation and tuning covers rotary applications as well as piston engines.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Is my job too big or too small for you?</h3>
+          <p>No. Our large workshop and Dyno Dynamics 4WD dyno let us cater for any job big or small, from full engine rebuilds to complete rewiring.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What types of vehicle do you work on?</h3>
+          <p>We offer a wide range of specialised services for any type of vehicle, backed by our experience in all fields of car modification.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Where is your workshop in Christchurch?</h3>
+          <p>Our workshop is at 35 Stanmore Road, Phillipstown, Christchurch. <a href="https://www.google.com/maps/search/?api=1&amp;query=35+Stanmore+Road%2C+Phillipstown%2C+Christchurch" target="_blank" rel="noopener">Open it in Google Maps</a>.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How do I book my car in?</h3>
+          <p>Phone <a href="tel:+6433892126">03 389 2126</a> or email <a href="mailto:re-sinclair@outlook.com">re-sinclair@outlook.com</a> with details of your vehicle and the work you're after.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Contact us</span>
+        <h2 id="contact-title">How do I get in touch?</h2>
+        <hr class="rule">
+        <p>Call, email or drop in to the workshop in Phillipstown, Christchurch.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="card">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"></path></svg>Phone</h3>
+          <p class="big">03 389 2126</p>
+          <a class="btn btn-chrome" href="tel:+6433892126">Call the workshop</a>
+        </div>
+        <div class="card">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M22 6l-10 7L2 6"></path></svg>Email</h3>
+          <p class="big">re-sinclair@outlook.com</p>
+          <a class="btn btn-ghost" href="mailto:re-sinclair@outlook.com?subject=Enquiry%20for%20R%20E%20Sinclair">Send an email</a>
+        </div>
+        <div class="card">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>Workshop</h3>
+          <address class="big">35 Stanmore Road,<br>Phillipstown, Christchurch</address>
+          <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=35+Stanmore+Road%2C+Phillipstown%2C+Christchurch" target="_blank" rel="noopener">Get directions</a>
+        </div>
+        <div class="card">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>Opening hours</h3>
+          <p>Please phone <a href="tel:+6433892126">03 389 2126</a> for current workshop hours and to arrange a time to bring your vehicle in.</p>
+        </div>
+        <div class="card">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>Facebook</h3>
+          <p>Follow R E Sinclair on Facebook for workshop news.</p>
+          <a class="btn btn-ghost" href="https://www.facebook.com/126130584123652" target="_blank" rel="noopener">Visit our Facebook page</a>
+        </div>
+        <div class="card">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 17a9 9 0 1 1 17 0"></path><path d="M12 14l4-5"></path></svg>Area we serve</h3>
+          <p>Our workshop is in Phillipstown, and we look after customers from across Christchurch.</p>
+        </div>
+      </div>
+      <div class="contact-band carbon">
+        <p>Ready to talk about your car?</p>
+        <div class="btns">
+          <a class="btn btn-chrome" href="tel:+6433892126">Call 03 389 2126</a>
+          <a class="btn btn-ghost" href="mailto:re-sinclair@outlook.com?subject=Enquiry%20for%20R%20E%20Sinclair">Email us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="chrome-bar" aria-hidden="true"></div>
+  <div class="wrap footer-inner">
+    <div>
+      <img src="assets/logo.jpg" width="424" height="127" alt="R E Sinclair" loading="lazy" decoding="async">
+      <p>Performance car modification, service and tuning. Mechanics &amp; car repair in Christchurch.</p>
+    </div>
+    <div>
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#dyno">Dyno</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Contact</h2>
+      <address>
+        <ul>
+          <li><a href="tel:+6433892126">03 389 2126</a></li>
+          <li><a href="mailto:re-sinclair@outlook.com">re-sinclair@outlook.com</a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=35+Stanmore+Road%2C+Phillipstown%2C+Christchurch" target="_blank" rel="noopener">35 Stanmore Road, Phillipstown, Christchurch</a></li>
+          <li><a href="https://www.facebook.com/126130584123652" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </address>
+    </div>
+  </div>
+  <div class="wrap footer-base">
+    <span>© 2026 R E Sinclair, Christchurch</span>
+    <span>Website by Tova Digital</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var toggle=document.querySelector('.nav-toggle');
+  var nav=document.getElementById('site-nav');
+  if(!toggle||!nav)return;
+  function setOpen(open){
+    toggle.setAttribute('aria-expanded',open?'true':'false');
+    toggle.setAttribute('aria-label',open?'Close menu':'Open menu');
+    nav.classList.toggle('is-open',open);
+  }
+  toggle.addEventListener('click',function(){
+    setOpen(toggle.getAttribute('aria-expanded')!=='true');
+  });
+  nav.addEventListener('click',function(e){
+    if(e.target.closest('a'))setOpen(false);
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&toggle.getAttribute('aria-expanded')==='true'){setOpen(false);toggle.focus();}
+  });
+  document.addEventListener('click',function(e){
+    if(!e.target.closest('.site-header'))setOpen(false);
+  });
+  var mq=window.matchMedia('(min-width: 901px)');
+  var onChange=function(){if(mq.matches)setOpen(false);};
+  if(mq.addEventListener)mq.addEventListener('change',onChange);else mq.addListener(onChange);
+})();
+</script>
+
+</body></html>

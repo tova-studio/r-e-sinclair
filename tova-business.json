@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "source": "tova-explore",
+  "generatedAt": "2026-11-25T08:15:14.054Z",
+  "slug": "resinclair",
+  "name": "R E Sinclair",
+  "city": "Christchurch",
+  "industry": {
+    "label": "Mechanics & car repair",
+    "niche": "mechanics & car repair",
+    "group": "Retail & automotive"
+  },
+  "contact": {
+    "phone": "+6433892126",
+    "email": "re-sinclair@outlook.com",
+    "address": "35 Stanmore Rd, Christchurch"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/126130584123652"
+  },
+  "about": {
+    "overview": "Our experience, knowledge, and understanding in all fields of car modification enables us to offer a wide range of specialised services for any type of vehicle. Our large workshop and Dyno Dyanmics 4WD dyno, lets us cater for any job big or small. Full engine rebuilds, and fabrication, to complete rewiring, installation and tuning of any after market ECU whether it be piston or rotary application."
+  },
+  "before": {
+    "url": "http://www.resinclair.co.nz/index.html",
+    "domain": "resinclair.co.nz",
+    "finalUrl": "http://www.resinclair.co.nz/index.html",
+    "title": "Performance Car Modification, Service and Tuning - R.E. Sinclair, Christchurch NZ",
+    "pages": 7,
+    "score": 99,
+    "assessedAt": "2026-11-20T12:50:56.890Z",
+    "issues": [
+      {
+        "id": "no-viewport",
+        "title": "Not mobile-friendly",
+        "evidence": "The page has no responsive viewport tag, so phones show a shrunken desktop layout."
+      },
+      {
+        "id": "no-https",
+        "title": "Not served over HTTPS",
+        "evidence": "Final URL is http://www.resinclair.co.nz/index.html. Browsers label this site \"Not secure\"."
+      },
+      {
+        "id": "legacy-markup",
+        "title": "Built with legacy page techniques",
+        "evidence": "0 deprecated tags and 10 layout tables found (modern sites use responsive CSS)."
+      },
+      {
+        "id": "no-contact-path",
+        "title": "No easy way to get in touch",
+        "evidence": "No tap-to-call link and no enquiry form on the homepage."
+      },
+      {
+        "id": "stale-copyright",
+        "title": "Looks out of date",
+        "evidence": "Footer copyright reads 2008, 18 years ago."
+      },
+      {
+        "id": "no-schema",
+        "title": "No local-business search markup",
+        "evidence": "No structured data, so Google has less to show for the business."
+      }
+    ],
+    "screenshot": "screenshots/before-desktop.jpg"
+  },
+  "ours": {
+    "pagesUrl": "https://tova-studio.github.io/r-e-sinclair/",
+    "repoUrl": "https://github.com/tova-studio/r-e-sinclair",
+    "generator": "claude",
+    "screenshot": "screenshots/after-desktop.jpg",
+    "publishedAt": "2026-11-25T08:15:14.054Z"
+  }
+}
